@@ -61,6 +61,17 @@ class User extends Authenticatable
         'profile_photo_url',
     ];
 
+
+    /**
+     * Get the default profile photo URL if no profile photo has been uploaded.
+     *
+     * @return string
+     */
+    protected function defaultProfilePhotoUrl()
+    {
+        return asset('storage/images/chatty-icon-8.png');
+    }
+
     public function Profile()
     {
         return $this->hasOne(Profile::class);
