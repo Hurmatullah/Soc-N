@@ -3,7 +3,7 @@
 
     <div class="flex justify-around items-center bg-gray-100 min-h-screen">
         <div>
-            <img :src="'/storage/images/chatty-icon-8.png'" alt="Social Network">
+            <!-- <img :src="'/storage/images/chatty-icon-8.png'" alt="Social Network"> -->
         </div>
         <div class="text-center">
             <h1 class="text-4xl font-semibold">
