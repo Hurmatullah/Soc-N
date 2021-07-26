@@ -7,8 +7,12 @@
         </template>
 
         <div class="py-12">
-            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                <div class="bg-gray-700 overflow-hidden shadow-xl sm:rounded-lg">
+            <div class="grid grid-cols-2 gap-4">
+                <div class="w-1/3">
+                    <p class="text-center border-r-2 border-red-600">Hello world</p>
+                </div>
+                <div>
+                    <p>Hello gang</p>
                 </div>
             </div>
         </div>
