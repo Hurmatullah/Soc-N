@@ -2,7 +2,7 @@
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
-use App\Controller\User\DashboardController;
+use App\Http\Controllers\User\DashboardController;
 use Inertia\Inertia;
 
 /*
@@ -26,5 +26,5 @@ Route::get('/', function () {
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->prefix('user')->group(function(){
-    Route::get('dashboard', [DashboardController::class , 'index']);
-})->name('dashboard');
+    Route::get('dashboard', [DashboardController::class , 'index'])->name('dashboard.index');
+});
