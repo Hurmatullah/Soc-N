@@ -5,14 +5,22 @@
                 Dashboard
             </h2>
         </template>
-
-        <div class="py-12">
-            <div class="grid grid-cols-2 gap-4">
-                <div class="w-1/3">
-                    <p class="text-center border-r-2 border-red-600">Hello world</p>
+        <div class="mt-2">
+            <div class='w-screen h-screen flex'>
+                <div class="w-4/12 bg-white h-full">
+                    <div class="bg-blue-100 w-full h-24 border-r-8 border-red-600"></div>
                 </div>
-                <div>
-                    <p>Hello gang</p>
+                <div class="w-8/12 bg-yellow-500 p-2 space-y-2 overflow-y-scroll">
+                    <div class="bg-blue-100 w-full h-24 border"></div>
+                    <div class="bg-blue-100 w-full h-24 border"></div>
+                    <div class="bg-blue-100 w-full h-24 border"></div>
+                    <div class="bg-blue-100 w-full h-24 border"></div>
+                    <div class="bg-blue-100 w-full h-24 border"></div>
+                    <div class="bg-blue-100 w-full h-24 border"></div>
+                    <div class="bg-blue-100 w-full h-24 border"></div>
+                    <div class="bg-blue-100 w-full h-24 border"></div>
+                    <div class="bg-blue-100 w-full h-24 border"></div>
+                    <div class="bg-blue-100 w-full h-24 border"></div>
                 </div>
             </div>
         </div>
